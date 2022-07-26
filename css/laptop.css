@@ -1,0 +1,321 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-size: 20px;
+	line-height: 1rem;
+}
+
+body {
+	background-color: #353535;	
+}
+
+header {
+	position: fixed;
+	width: 100%;
+	top: 0;
+	background-color: #353535;
+	z-index: 12;
+}
+
+.clearfix {
+	clear: both;
+}
+
+.container {
+	max-width: 1140px;
+	margin: 0 auto;
+}
+
+.brand {
+	vertical-align: middle;
+	display: inline-block;
+}
+
+.img-magnifier-container {
+  position:relative;
+  float: right;
+}
+
+
+.img-magnifier {
+  position: absolute;
+  cursor: none;
+  /*Set the size of the magnifier glass:*/
+  width: 100%;
+  height: 100px;
+  background-color: #353535;
+  visibility: hidden;
+}
+
+.img-magnifier-container:hover .img-magnifier {
+  visibility: visible;
+}
+
+.img-magnifier-glass {
+  border: 3px solid #000;
+  border-radius: 50%;
+  position: absolute;
+  cursor: none;
+  /*Set the size of the magnifier glass:*/
+  width: 100px;
+  height: 100px;
+}
+
+
+
+nav > .items {
+	display: inline-block;
+	vertical-align: middle;
+	float: right;
+}
+
+nav > .items > .item {
+	display: inline-block;
+	padding: 22px;
+}
+
+nav > .items > .item > a {
+	text-decoration: none;
+	font-size: 16px;
+	text-transform: uppercase;
+	font-weight: 500;
+	color: #fff;
+}
+
+.nav-back {
+	height: 64px;
+}
+
+.row {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.column {
+	float: left;
+	width: 50%;
+}
+
+.column-3 {
+	float: left;
+	width: 30%;
+}
+
+#main > .image > img {
+	float: right;
+}
+
+.title {
+	font-size: 32px;
+	font-weight: 400;
+	text-transform: uppercase;
+	color: #64D2B3;
+}
+
+.subtitle {
+	font-size: 28px;
+	color: #eee;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+.box {
+	background-color: #494949;
+}
+
+.head {
+	font-size: 18px;
+	font-weight: 500;
+	text-transform: uppercase;
+	color: #ddd;
+}
+
+.body {
+	font-size: 18px;
+	font-weight: 400;
+	text-transform: capitalize;
+	color: #eee;
+}
+.mt-30 {
+	margin-top: 30px;
+}
+
+.m-20 {
+	margin: 20px;
+}
+
+.mx-20 {
+	margin: 0 20px;
+}
+
+.mt-10 {
+	margin-top: 10px;
+}
+
+
+.mt-20 {
+	margin-top: 20px;
+}
+
+.mb-20 {
+	margin-bottom: 20px;
+}
+.mb-10 {
+	margin-bottom: 10px;
+}
+.mt-50 {
+	margin-top: 50px;
+}
+
+.my-20 {
+	margin: 20px 0;
+}
+.ps-30 {
+	padding-left: 30px;
+}
+
+.ps-20 {
+	padding-left: 20px;
+}
+
+.p-30 {
+	padding: 30px;
+}
+
+.p-20 {
+	padding: 20px;
+}
+
+.content {
+	font-size: 14px;
+	font-weight: 400;
+	color: #eee;
+	text-align: justify;
+	line-height: 1.1rem;
+}
+
+.why.content {
+	font-size: 18px;
+	line-height: 1.3rem;
+	color: #ccc;
+}
+
+.tech-item {
+	display: inline-block;
+	margin: 10px;
+	background-color: #494949;
+	padding: 25px;
+	box-sizing: border-box;
+	height: 260px;
+	vertical-align: middle;
+	float: none;
+}
+
+
+.tech-item > .image > img {
+/*	width: 120px;*/
+	height: 60px;
+}
+
+.tech-items {
+	text-align: center;
+}
+
+.tech-star {
+	margin: 10px 0;
+}
+.tech-desc {
+	font-size: 14px;
+	color: #eee;
+	font-weight: 300;
+	line-height: 1rem;
+}
+
+.logo-text {
+	font-size: 36px;
+	text-align: center;
+	height: 60px;
+	color: #eee;
+	cursor: default;
+}
+
+.portfolio-main {
+	height: 400px;
+	display: inline-block;
+	margin: 10px;
+}
+
+.portfolio-second {
+	height: 195px;
+	display: inline-block;
+	margin: 10px;
+}
+
+.middle {
+	margin: 0 auto;
+	vertical-align: middle;
+}
+
+.portfolio-title {
+	font-size: 24px;
+	color: #ddd;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+.portfolio-subtitle {
+	font-size: 22px;
+	color: #ddd;
+	font-weight: 400;
+	margin: 10px 0;
+}
+
+#show-image {
+	z-index: 10;
+	height: 100%;
+	width: 100%;
+	text-align: center;
+	position: absolute;
+	background-color: #353535;
+	content: "";
+	position: fixed;
+	vertical-align: middle;
+}
+
+#show-image-top {
+	color: #ddd;
+	width: 48px;
+	text-align: right;
+	vertical-align: middle;
+	cursor: pointer;
+}
+#show-image-src {
+	margin-bottom: 50px;
+}
+
+#show-image.disable {
+	display: none;
+}
+
+.link {
+	text-decoration: none;
+	color: #fff;
+	cursor: pointer;
+	font-weight: 700;
+}
+
+footer {
+	padding: 50px;
+	text-align: center;
+}
+
+.footer-title {
+	font-size: 22px;
+	color: #eee;
+	font-weight: 400;
+}
+
+.footer-title > span {
+	color: #64D2B3;
+}
