@@ -12,7 +12,7 @@
 					  <div class="img-magnifier-container">
 							<img id="myImage2" src="./images/brand.png" width="192" alt="Logo">
 						</div>
-					  <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+					  <a role="button" class="navbar-burger" id="navbar-button" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
 					    <span aria-hidden="true"></span>
 					    <span aria-hidden="true"></span>
 					    <span aria-hidden="true"></span>
@@ -22,6 +22,7 @@
 					  <div class="navbar-end is-uppercase">
 <!-- 					<a class="navbar-item" href="#">Haqimda</a>
 							<a class="navbar-item" href="#">Blog</a> -->
+							<a href="https://github.com/mehriddinnozimov" class="navbar-item" target="_blank">Github</a>
 					    <a class="navbar-item" href="https://t.me/mehriddinnozimov">Telegram</a>
 					    <a class="navbar-item" href="https://drive.google.com/file/d/1oUlWuauGblgLWraqI6pek1QCgNO0u0Gu/view?usp=sharing" target="_blank">Cv yuklab olish</a>
 					  </div>
@@ -38,8 +39,8 @@
 						<img src="./images/main-image.png">
 					</div>
 				</div>
-				<div class="columns is-mobile">
-					<div class="column is-full-mobile">
+				<div class="columns is-mobile is-vcentered">
+					<div class="column">
 						<div>
 							<div class="box p-5 bg-half-dark my-3">
 								<h5 class="subtitle is-5 has-text-white"><span class="is-uppercase">ism: </span>Mehriddin</h5>
@@ -54,7 +55,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="column is-full-mobile for-desktop">
+					<div class="column for-desktop">
 						<img src="./images/main-image.png" alt="Mehriddin" class="right">
 					</div>
 				</div>
@@ -63,12 +64,12 @@
 				<h4 class="primary">Texnologiyalar</h4>
 				<div class="columns is-centered is-multiline is-mobile">
 					<div class="column is-one-third-tablet is-half-mobile">
-						<div class="box p-4 bg-half-dark has-text-white has-text-centered tech-card">
+						<div class="box px-4 pt-4 bg-half-dark has-text-white has-text-centered tech-card">
+							<div class="image-center">
+								<img src="./images/4.png"  class="tech-image star">								
+							</div>							
 							<div class="image-center">
 								<img src="./images/nodejs.svg"  class="tech-image">								
-							</div>
-							<div class="image-center">
-								<img src="./images/4.png"  class="tech-image">								
 							</div>
 							<p class="content">
 								NodeJS - men qo`llaydigan asosiy texnologiya. Asinxronlik, bloklanmasdan ishlash, ko`p platformalilik NodeJS'ni men uchun sevimli texnologiyaga aylantirgan.
@@ -77,12 +78,12 @@
 					</div>
 
 					<div class="column is-one-third-tablet is-half-mobile">
-						<div class="box p-4 bg-half-dark has-text-white has-text-centered tech-card tech-card">
+						<div class="box px-4 pt-4 bg-half-dark has-text-white has-text-centered tech-card">
+							<div class="image-center">
+								<img src="./images/4.png"  class="tech-image star">								
+							</div>							
 							<div class="image-center">
 								<img src="./images/express.png"  class="tech-image">								
-							</div>
-							<div class="image-center">
-								<img src="./images/4.png"  class="tech-image">								
 							</div>
 							<p class="content">
 								Express - oson va tez yoziladigan, minimalistik veb freymvork. Deyarli barcha narsani boshqarish imkoniyati, keng tanlov boshqa freymvorklardan ajratib turadi. 
@@ -91,12 +92,12 @@
 					</div>
 
 					<div class="column is-one-third-tablet is-half-mobile">
-						<div class="box p-4 bg-half-dark has-text-white has-text-centered tech-card">
+						<div class="box px-4 pt-4 bg-half-dark has-text-white has-text-centered tech-card">
 							<div class="image-center">
-								<img src="./images/vue.svg"  class="tech-image">								
+								<img src="./images/3.png"  class="tech-image star">								
 							</div>
 							<div class="image-center">
-								<img src="./images/3.png"  class="tech-image">								
+								<img src="./images/vue.svg"  class="tech-image">								
 							</div>
 							<p class="content">
 								VueJS - oddiy, qulay, moslashuvchan front-end freymvork. React va Angular yutuqlarini o`zlashtirib, tobora mashxur bo`lib bormoqda. Freymvork shunday tuzilganki, u bilan kod yozish yoqimliroq.
@@ -105,12 +106,12 @@
 					</div>
 
 					<div class="column is-one-third-tablet is-half-mobile">
-						<div class="box p-4 bg-half-dark has-text-white has-text-centered tech-card">
+						<div class="box px-4 pt-4 bg-half-dark has-text-white has-text-centered tech-card">
 							<div class="image-center">
-								<img src="./images/mongodb.svg"  class="tech-image">								
+								<img src="./images/4.png"  class="tech-image star">								
 							</div>
 							<div class="image-center">
-								<img src="./images/4.png"  class="tech-image">								
+								<img src="./images/mongodb.svg"  class="tech-image">								
 							</div>
 							<p class="content">
 								MongoDB - uzoq vaqt mobaynida ma'lumotlar ombori(MO) bozorida SQL tilida yozilgan MOlar yetakchilik qildi. Nisbatan yangi texnologiya bo`lishiga qaramay, tezkorligi va JSONdan foydalanishi unga mashxurlikni keltirdi.
@@ -119,12 +120,12 @@
 					</div>
 
 					<div class="column is-one-third-tablet is-half-mobile">
-						<div class="box p-4 bg-half-dark has-text-white has-text-centered tech-card">
+						<div class="box px-4 pt-4 bg-half-dark has-text-white has-text-centered tech-card">
+							<div class="image-center">
+								<img src="./images/3.png"  class="tech-image star">								
+							</div>							
 							<div class="image-center">
 								<img src="./images/postgres.png"  class="tech-image">								
-							</div>
-							<div class="image-center">
-								<img src="./images/3.png"  class="tech-image">								
 							</div>
 							<p class="content">
 								PostgreSQL - Eng ilg`or, ishonchli, boy xususiyatlarga ega SQL tipli Malumotlar ombori.
@@ -133,13 +134,14 @@
 					</div>
 
 					<div class="column is-one-third-tablet is-half-mobile">
-						<div class="box p-4 bg-half-dark has-text-white has-text-centered tech-card">
+						<div class="box px-4 pt-4 bg-half-dark has-text-white has-text-centered tech-card">
+							<div class="image-center">
+								<img src="./images/3.png"  class="tech-image star">								
+							</div>							
 							<div class="image-center">
 								<img src="./images/python.png"  class="tech-image">								
 							</div>
-							<div class="image-center">
-								<img src="./images/3.png"  class="tech-image">								
-							</div>
+
 							<p class="content">
 								Python - Sodda, o`qishga oson sintaksis, dinamik va yuqori darajaligi mening eng sevimli dasturlash tilimga aylantirgan. Pythondan asosan masalalar yechishda foydalanaman.
 							</p>
