@@ -146,12 +146,41 @@
   display: inline-block;
 }
 
-
-@media only screen and (max-width: 1024px){
+@media only screen and (max-device-width: 1024px) {
   .primary {
     text-align: center;
+    font-size: 4rem;
   }
 
+  .secondary {
+    font-size: 3rem;
+  }
+
+  .subtitle.is-5 {
+    font-size: 2.5rem;
+  }
+
+  .content {
+    font-size: 1.8rem;
+  }
+
+  .tech-card {
+    height: 540px;
+    vertical-align: top;
+  }
+
+  .tech-card .content {
+    display: block;
+    height: 360px!important;
+  }
+
+  .navbar-burger {
+    color: #eee;
+  }
+
+  .navbar-primary {
+    font-size: 36px;
+  }
   .for-mobile {
     display: block;
   }
@@ -162,6 +191,7 @@
 
   .is-half-mobile {
     font-size: 0.8rem!important;
+    width: 50%;
   }
 
   .full-mobile {
@@ -174,6 +204,14 @@
 
   .star {
     max-height: 48px;
+  }
+
+  .portfolio-primary {
+    font-size: 36px;
+  }
+
+  .portfolio-secondary {
+    font-size: 30px;
   }
 
 }
